@@ -9,9 +9,16 @@
 function meuEscopo(){
     const form = document.querySelector('.form');
 
-    form.onsubmit = function (evento){
+    // form.onsubmit = function (evento){
+    //     evento.preventDefault();
+    // };
+
+    function recebeEventoForm(){
         evento.preventDefault();
+        console.log('Form não foi enviado');
     };
+
+    form.addEventListener('submit', recebeEventoForm);
 }
 
 meuEscopo();
