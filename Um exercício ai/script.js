@@ -10,5 +10,5 @@ form.addEventListener('submit', function (e){
 
     const pessoa = [];
 
-    pessoa.forEach(cadaPessoa());
+    pessoa.push(cadaPessoa());
 });
