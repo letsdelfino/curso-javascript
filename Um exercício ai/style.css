@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color: slateblue;
+}
+
+form, fieldset{
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    background-color: white;
+    padding: 0;
+    height: 200px;
+}
+
+fieldset{
+    border-color: black;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input{
+    text-align: center;;
+    margin: 10px;
+}
